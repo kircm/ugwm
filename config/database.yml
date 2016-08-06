@@ -3,8 +3,12 @@
 #
 default: &default
   adapter: mysql
+  encoding: utf8
   pool: 5
   timeout: 5000
+  username: rails
+  password: rails
+
 
 development:
   <<: *default
